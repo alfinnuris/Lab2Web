@@ -1,0 +1,48 @@
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background-image: url(https://mmc.tirto.id/image/otf/1024x535/2021/01/15/one-1-3_ratio-16x9.jpg);
+    background-position:center;
+    background-size: cover;
+}
+    nav {
+        background: #000a04;
+        color:#fff;
+        padding: 10px;
+        }
+        nav a {
+        color: #fff;
+        text-decoration: none;
+        padding:10px 20px;
+        }
+        nav .active,
+        nav a:hover {
+        background: #0B6B3A;
+        }
+    /* ID Selector */
+    #intro {
+        background: #014e6f;
+        border: 1px solid #09931e;
+        min-height: 100px;
+        padding: 10px;
+        }
+        #intro h1 {
+        text-align: left;
+        border: 0;
+        color: #fff;
+        }
+        /* Class Selector */
+        .button {
+        padding: 15px 20px;
+        background: #bebcbd;
+        color: #fff;
+        display: inline-block;
+        margin: 10px;
+        text-decoration: none;
+        }
+        .btn-primary {
+        background: #E42A42;
+        }
